@@ -38,7 +38,7 @@ Print the minimum number of jumps needed to win the game.
 ## Explanation 0
 Emma must avoid `c[2]` and `c[5]`. She can win the game with a minimum of `4` jumps:
 
-jump(2).png
+jump2.png
 
 ## Sample Input 1
 ```
@@ -54,4 +54,4 @@ jump(2).png
 ## Explanation 1
 The only thundercloud to avoid is `c[4]`. Emma can win the game in `3` jumps:
 
-jump(5).png
+jump5.png
