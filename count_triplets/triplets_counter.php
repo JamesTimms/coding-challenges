@@ -3,8 +3,8 @@
 function count_triplets($indicies, $ratio) {
   $count = 0;
   $indicies_dict = arr_to_dict_counter($indicies);
-  foreach($indicies as $index) {    
-    if(has_triplet($indicies_dict, $index, $ratio)) {
+  foreach($indicies_dict as $index => $num) {    
+    if(has_triplet($indicies_dict, $index, $ratio)) {  
       $count+=triplet_parings($indicies_dict, $index, $ratio);
     }
   }
